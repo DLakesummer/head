@@ -1,9 +1,3 @@
 [submodule "sidd"]
 	path = sidd
 	url = https://github.com/DLakesummer/sidd.git
-[submodule "test_docker"]
-	path = test_docker
-	url = https://github.com/shalithchamantha/test_docker.git
-[submodule "tutorial"]
-	path = tutorial
-	url = https://github.com/shalithchamantha/tutorial.git
