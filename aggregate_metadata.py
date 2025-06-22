@@ -8,6 +8,9 @@ OUTPUT_FILE = os.path.join(ROOT_DIR, "all_metadata.json")
 all_metadata = []
 
 for submodule_name in os.listdir(SUBMODULES_DIR):
+    if submodule_name == "head":
+        continue
+    
     submodule_path = os.path.join(SUBMODULES_DIR, submodule_name)
     metadata_path = os.path.join(submodule_path, "metadata.json")
 
