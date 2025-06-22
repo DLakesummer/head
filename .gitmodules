@@ -1,3 +1,6 @@
 [submodule "sidd"]
 	path = sidd
 	url = https://github.com/DLakesummer/sidd.git
+[submodule "datasets/test_ds"]
+	path = datasets/test_ds
+	url = https://github.com/DLakesummer/test_ds
